@@ -1,0 +1,35 @@
+@import 'variables';
+
+body {
+  background-color: #f6f4f5;
+  font-family: 'Nunito', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+// //  Generate styles for background color and text color
+// @each $class, $color in (
+//   'bg-primary': $primary,
+//   'text-primary': $primary,
+//   'text-gray-1': $text-gray-1,
+//   'bg-gray-1': $text-gray-1,
+//   'text-gray-2': $text-gray-2,
+//   'bg-gray-2': $text-gray-2,
+//   'text-gray-3': $text-gray-3,
+//   'bg-gray-3': $text-gray-3,
+//   'bg-secondary-light': $secondary-light,
+//   'text-secondary-light': $secondary-light,
+//   'bg-secondary-dark': $secondary-dark,
+//   'text-secondary-dark': $secondary-dark,
+
+// ) {
+//   .#{$class} {
+//     @if str-index($class, 'bg-') {
+//       background-color: $color;
+//     } @else {
+//       color: $color;
+//     }
+//   }
+// }
+
+.bg-linear-gradient {
+  background-image: $primary-gradient;
+}
